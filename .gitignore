@@ -1,0 +1,15 @@
+# Dependency directories
+/node_modules
+/.pnp
+.pnp.js
+
+# Build files
+/dist
+
+# Tailwind CSS build output
+/public/build
+
+# IDE/Editor files
+.idea
+.vscode
+.hintrc
