@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ["./index.html"], // Update the path to point directly to the index.html file in the root directory
   theme: {
     extend: {
       fontSize: {
