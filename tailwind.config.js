@@ -12,6 +12,9 @@ module.exports = {
         "2xl": "28px",
         "3xl": "36px",
       },
+      backgroundImage: {
+        "getIn-touch": "url('/src/images/getintoucn-img.png')",
+      },
     },
   },
   plugins: [],
