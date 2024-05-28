@@ -15,6 +15,9 @@ module.exports = {
       backgroundImage: {
         "getIn-touch": "url('/src/images/getintoucn-img.png')",
       },
+      boxShadow: {
+        "custom-black": "black -15px -10px 0px 5px",
+      },
     },
   },
   plugins: [],

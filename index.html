@@ -85,12 +85,14 @@
       </section>
       <!-- about me section -->
       <section>
-        <div class="flex flex-col items-center px-10 md:flex-row-reverse">
-          <div class="md:w-3/5">
+        <div
+          class="flex flex-col items-center justify-center px-10 py-5 md:flex-row-reverse"
+        >
+          <div class="md:flex-1">
             <div class="mb-4 flex flex-col items-center">
               <h1 class="text-xl font-bold md:text-[42px]">About me</h1>
               <div class="ml-14 flex justify-center md:-mt-3 md:ml-[95px]">
-                <p class="text-[10px] font-bold md:text-md">Who Am I ?s</p>
+                <p class="text-[10px] font-bold md:text-md">Who Am I ?</p>
               </div>
             </div>
 
@@ -160,24 +162,19 @@
               </button>
             </div>
           </div>
-
-          <div
-            class="flex flex-col items-center justify-center pb-20 pr-10 pt-24 md:w-2/5"
-          >
-            <div
-              class="h-[277px] w-[191px] rounded-[22px] bg-[#151C25] md:h-[519px] md:w-[419px] md:rounded-[38px]"
-            ></div>
+          <!-- img -->
+          <div class="ml-10 flex pb-20 pr-10 pt-24 md:flex-1">
             <!-- img for mobile screen -->
-            <div class="-mr-14 -mt-[266px] md:hidden">
+            <div class="rounded-[26px] shadow-custom-black md:hidden">
               <img src="./src/images/my-img2.png" alt="" />
             </div>
             <!-- img for big screen -->
-            <div class="-mr-5 -mt-[500px] hidden md:block">
-              <img src="./src/images/img-6.png" alt="" />
+            <div class="hidden rounded-[26px] shadow-custom-black md:block">
+              <img src="./src/images/img-6.png" alt="" class="rounded-[26px]" />
             </div>
           </div>
         </div>
-        <hr class="mb-10 border-[#26313F]" />
+        <hr class="border-[#26313F]" />
       </section>
 
       <!-- Projects -->
@@ -382,7 +379,7 @@
       <!-- Get in touch -->
       <section>
         <div class="mt-10 flex">
-          <div class="bg-getIn-touch hidden flex-1 md:block">
+          <div class="hidden flex-1 bg-getIn-touch md:block">
             <div
               class="flex h-full w-full items-center bg-[#26313F] opacity-80"
             >
